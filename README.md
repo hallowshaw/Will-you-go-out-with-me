@@ -14,7 +14,7 @@
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/Will-you-go-out-with-me.git
+   git clone https://github.com/hallowshaw/Will-you-go-out-with-me.git
    ```
 2. Open the index.html file in your web browser.
 
