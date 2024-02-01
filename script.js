@@ -139,8 +139,12 @@ const handleYesClick = () => {
   letsGoBtn.addEventListener("click", () => {
     const randomIndex = Math.floor(Math.random() * dateIdeas.length);
     const selectedDateIdea = dateIdeas[randomIndex];
-
-    alert(`How about this romantic date idea: ${selectedDateIdea}`);
+    letsGoBtn.textContent = "Something else";
+    document.getElementById("alert").innerHTML = `<div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">How about this romantic date idea: </h4>
+    <hr>
+    <p>${selectedDateIdea}</p>
+  </div>`
   });
 
   // Replace yesBtn with the new letsGoBtn
